@@ -6,11 +6,11 @@ export const Route = createFileRoute('/story')({
 
 function RouteComponent() {
   return (
-    <div className="flex flex-col w-full h-auto space-y-5 lg:space-y-32 pb-5 lg:pb-32">
-      <div className="flex flex-col w-full h-auto space-y-5 bg-primary px-5 lg:px-32">
-        <div className="grid grid-cols-1 w-full items-center h-auto lg:grid-cols-2 gap-5 lg:gap-32 py-5 lg:py-32">
-          <div className="flex flex-col w-full h-auto space-y-5 text-white">
-            <div className="text-4xl">
+    <div className="flex flex-col w-full h-auto space-y-8 sm:space-y-16 lg:space-y-32 pb-8 sm:pb-16 lg:pb-32">
+      <div className="flex flex-col w-full h-auto space-y-5 bg-primary px-4 sm:px-6 lg:px-32">
+        <div className="grid grid-cols-1 w-full items-center h-auto lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-32 py-8 sm:py-16 lg:py-32">
+          <div className="flex flex-col w-full h-auto space-y-4 sm:space-y-5 text-white">
+            <div className="text-2xl sm:text-3xl lg:text-4xl leading-tight">
               Partner With An <span className="font-bold">Award Winning</span>{' '}
               Waste Beneficiation NPO
             </div>
@@ -18,18 +18,20 @@ function RouteComponent() {
 
           <img
             src="/assets/our_story_partner.jpg"
-            className="w-full rounded-2xl"
+            className="w-full rounded-2xl shadow-lg"
           />
         </div>
       </div>
 
-      <div className="flex flex-col w-full h-auto space-y-8 px-5 lg:px-32">
-        <div className="flex flex-col w-full h-auto space-y-4 items-center justify-center">
-          <div className="font-bold text-4xl text-center">Our Mandate</div>
-          <div className="w-32 h-2 bg-amber-200"></div>
+      <div className="flex flex-col w-full h-auto space-y-6 sm:space-y-8 px-4 sm:px-6 lg:px-32">
+        <div className="flex flex-col w-full h-auto space-y-3 sm:space-y-4 items-center justify-center">
+          <div className="font-bold text-2xl sm:text-3xl lg:text-4xl text-center">
+            Our Mandate
+          </div>
+          <div className="w-24 sm:w-32 h-1.5 sm:h-2 bg-amber-200 rounded"></div>
         </div>
 
-        <div>
+        <div className="text-sm sm:text-base lg:text-lg leading-relaxed">
           USE-IT has been established as a non-profit organisation to research
           and develop waste beneficiation technologies with the aim of diverting
           waste from landfill and creating jobs in the green economy. Our
@@ -37,7 +39,7 @@ function RouteComponent() {
           with the Economic Development Unit.
         </div>
 
-        <div>
+        <div className="text-sm sm:text-base lg:text-lg leading-relaxed">
           USE-IT is a special purpose vehicle, designed to act as a cluster for
           the waste materials recovery industry in eThekwini Municipality. In
           terms of Governance USE-IT is overseen by a board of directors made up
@@ -46,58 +48,58 @@ function RouteComponent() {
         </div>
       </div>
 
-      <div className="flex flex-col w-full h-auto space-y-8 px-5 lg:px-32">
-        <div className="flex flex-col w-full h-auto space-y-4 items-center justify-center">
-          <div className="font-bold text-4xl text-center">
+      <div className="flex flex-col w-full h-auto space-y-6 sm:space-y-8 px-4 sm:px-6 lg:px-32">
+        <div className="flex flex-col w-full h-auto space-y-3 sm:space-y-4 items-center justify-center">
+          <div className="font-bold text-2xl sm:text-3xl lg:text-4xl text-center">
             Vision & Strategy
           </div>
-          <div className="w-32 h-2 bg-amber-200"></div>
+          <div className="w-24 sm:w-32 h-1.5 sm:h-2 bg-amber-200 rounded"></div>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-          <div className="flex flex-col w-full p-10 lg:p-32 space-y-4 items-center justify-center text-center bg-primary rounded-lg text-white">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6">
+          <div className="flex flex-col w-full p-6 sm:p-8 lg:p-12 xl:p-16 space-y-4 items-center justify-center text-center bg-primary rounded-lg text-white">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="64"
-              height="64"
+              width="48"
+              height="48"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              className="lucide lucide-leaf"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="lucide lucide-leaf sm:w-16 sm:h-16"
             >
               <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z" />
               <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12" />
             </svg>
 
-            <div className="text-2xl font-bold">Our Vision</div>
+            <div className="text-xl sm:text-2xl font-bold">Our Vision</div>
 
-            <div>
+            <div className="text-sm sm:text-base leading-relaxed">
               USE-IT is the leading authority on driving economic opportunities
               in waste diversion and beneficiation to support the circular
               economy.
             </div>
           </div>
 
-          <div className="flex flex-col w-full p-10 lg:p-32 space-y-4 items-center justify-center text-center bg-primary rounded-lg text-white">
+          <div className="flex flex-col w-full p-6 sm:p-8 lg:p-12 xl:p-16 space-y-4 items-center justify-center text-center bg-primary rounded-lg text-white">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="64"
-              height="64"
+              width="48"
+              height="48"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              className="lucide lucide-star"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="lucide lucide-star sm:w-16 sm:h-16"
             >
               <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z" />
             </svg>
 
-            <div className="text-2xl font-bold">Our Strategy</div>
+            <div className="text-xl sm:text-2xl font-bold">Our Strategy</div>
 
             <div>
               Developing partnerships to grow and succeed within the green

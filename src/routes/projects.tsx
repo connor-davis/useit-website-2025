@@ -6,11 +6,11 @@ export const Route = createFileRoute('/projects')({
 
 function RouteComponent() {
   return (
-    <div className="flex flex-col w-full h-auto space-y-32 pb-5 lg:pb-32">
-      <div className="flex flex-col w-full h-auto space-y-5 bg-primary px-5 lg:px-32">
-        <div className="grid grid-cols-1 w-full items-center h-auto lg:grid-cols-2 gap-5 lg:gap-32 py-5 lg:py-32">
-          <div className="flex flex-col w-full h-auto space-y-5 text-white">
-            <div className="text-4xl">
+    <div className="flex flex-col w-full h-auto space-y-8 sm:space-y-16 lg:space-y-32 pb-8 sm:pb-16 lg:pb-32">
+      <div className="flex flex-col w-full h-auto space-y-5 bg-primary px-4 sm:px-6 lg:px-32">
+        <div className="grid grid-cols-1 w-full items-center h-auto lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-32 py-8 sm:py-16 lg:py-32">
+          <div className="flex flex-col w-full h-auto space-y-4 sm:space-y-5 text-white">
+            <div className="text-2xl sm:text-3xl lg:text-4xl leading-tight">
               Supporting <span className="font-bold">Green SMME'S</span> and
               Entrepreneurs
             </div>
@@ -18,20 +18,20 @@ function RouteComponent() {
 
           <img
             src="/assets/projects_business_development_one.jpg"
-            className="w-full rounded-2xl"
+            className="w-full rounded-2xl shadow-lg"
           />
         </div>
       </div>
 
-      <div className="flex flex-col w-full h-auto space-y-8 px-5 lg:px-32">
-        <div className="flex flex-col w-full h-auto space-y-4 items-center justify-center">
-          <div className="font-bold text-4xl text-center">
+      <div className="flex flex-col w-full h-auto space-y-6 sm:space-y-8 px-4 sm:px-6 lg:px-32">
+        <div className="flex flex-col w-full h-auto space-y-3 sm:space-y-4 items-center justify-center">
+          <div className="font-bold text-2xl sm:text-3xl lg:text-4xl text-center">
             Business Development
           </div>
-          <div className="w-32 h-2 bg-amber-200"></div>
+          <div className="w-24 sm:w-32 h-1.5 sm:h-2 bg-amber-200 rounded"></div>
         </div>
 
-        <div>
+        <div className="text-sm sm:text-base lg:text-lg leading-relaxed">
           The waste beneficiation centre based in Hammarsdale is aimed at
           fostering innovation and entrepreneurship within the Green Economy.
           Through the development of these innovations, we have successfully
@@ -41,21 +41,25 @@ function RouteComponent() {
         </div>
       </div>
 
-      <div className="flex flex-col w-full h-auto space-y-5 bg-primary px-5 lg:px-32">
-        <div className="grid grid-cols-1 w-full items-center h-auto lg:grid-cols-2 gap-5 lg:gap-32 py-5 lg:py-32">
-          <div className="flex flex-col w-full h-auto space-y-5 text-white">
-            <div className="text-4xl text-center">Our Projects</div>
+      <div className="flex flex-col w-full h-auto space-y-5 bg-primary px-4 sm:px-6 lg:px-32">
+        <div className="grid grid-cols-1 w-full items-center h-auto lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-32 py-8 sm:py-16 lg:py-32">
+          <div className="flex flex-col w-full h-auto space-y-4 sm:space-y-5 text-white">
+            <div className="text-2xl sm:text-3xl lg:text-4xl text-center lg:text-left">
+              Our Projects
+            </div>
 
-            <div>
+            <div className="text-sm sm:text-base lg:text-lg leading-relaxed">
               Currently the principal focus of the beneficiation centre is
               around Green Jobs and Skills Development. USE-IT has successfully
               partnered with industry partners to complete the following
               activities over the past year. There relate to the following:
             </div>
 
-            <div>Business Incubation:</div>
+            <div className="text-base sm:text-lg font-semibold">
+              Business Incubation:
+            </div>
 
-            <ul className="list-disc px-4">
+            <ul className="list-disc px-4 sm:px-6 space-y-1 text-sm sm:text-base">
               <li>Owethu Sewing Project</li>
               <li>Educational Toy Project</li>
               <li>Home Deco Tech</li>
@@ -63,9 +67,11 @@ function RouteComponent() {
               <li>Clothing 4 Repurpose</li>
             </ul>
 
-            <div>Green Skills Training:</div>
+            <div className="text-base sm:text-lg font-semibold">
+              Green Skills Training:
+            </div>
 
-            <ul className="list-disc px-4">
+            <ul className="list-disc px-4 sm:px-6 space-y-1 text-sm sm:text-base">
               <li>Waste Woodwork (Artisanry)</li>
               <li>Waste Classification & Sorting</li>
               <li>Glass Crushing & Operation</li>
@@ -77,24 +83,26 @@ function RouteComponent() {
 
           <img
             src="/assets/projects_business_development_two.jpg"
-            className="w-full rounded-2xl"
+            className="w-full rounded-2xl shadow-lg"
           />
         </div>
       </div>
 
-      <div className="flex flex-col w-full h-auto space-y-8 px-5 lg:px-32">
-        <div className="flex flex-col w-full h-auto space-y-4 items-center justify-center">
-          <div className="font-bold text-4xl text-center">
+      <div className="flex flex-col w-full h-auto space-y-6 sm:space-y-8 px-4 sm:px-6 lg:px-32">
+        <div className="flex flex-col w-full h-auto space-y-3 sm:space-y-4 items-center justify-center">
+          <div className="font-bold text-2xl sm:text-3xl lg:text-4xl text-center">
             Our Partner Incubation Programs
           </div>
-          <div className="w-32 h-2 bg-amber-200"></div>
+          <div className="w-24 sm:w-32 h-1.5 sm:h-2 bg-amber-200 rounded"></div>
         </div>
 
-        <div className="grid grid-cols-1 w-full items-center h-auto lg:grid-cols-2 gap-5 lg:gap-32 py-5 lg:py-32">
-          <div className="flex flex-col w-full h-auto space-y-5">
-            <div className="text-4xl">Owethu Sewing Project</div>
+        <div className="grid grid-cols-1 w-full items-center h-auto lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-32 py-4 sm:py-8 lg:py-16">
+          <div className="flex flex-col w-full h-auto space-y-4 sm:space-y-5">
+            <div className="text-2xl sm:text-3xl lg:text-4xl font-bold">
+              Owethu Sewing Project
+            </div>
 
-            <div>
+            <div className="text-sm sm:text-base lg:text-lg leading-relaxed">
               Born and bred in Hammasdale, Owethu Umqhele is a co-operative made
               up of a group of women from our community who had a vision that
               required nurturing. This vision fueled their determination to turn
@@ -108,15 +116,17 @@ function RouteComponent() {
 
           <img
             src="/assets/owethu_sewing_project.jpg"
-            className="w-full max-h-[500px] object-cover rounded-2xl"
+            className="w-full max-h-[300px] sm:max-h-[400px] lg:max-h-[500px] object-cover rounded-2xl shadow-lg"
           />
         </div>
 
-        <div className="grid grid-cols-1 w-full items-center h-auto lg:grid-cols-2 gap-5 lg:gap-32 py-5 lg:py-32">
-          <div className="flex flex-col w-full h-auto space-y-5">
-            <div className="text-4xl">Educational Toy Project</div>
+        <div className="grid grid-cols-1 w-full items-center h-auto lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-32 py-4 sm:py-8 lg:py-16">
+          <div className="flex flex-col w-full h-auto space-y-4 sm:space-y-5">
+            <div className="text-xl sm:text-2xl lg:text-3xl xl:text-4xl font-bold">
+              Educational Toy Project
+            </div>
 
-            <div>
+            <div className="text-sm sm:text-base lg:text-lg leading-relaxed">
               Cultivating great partnerships is one of the best strategies for
               any business. Nokulunga Ngcobo and Cebo Cele have been a great
               example of this value, a testament to the power of partnerships,
@@ -132,15 +142,17 @@ function RouteComponent() {
 
           <img
             src="/assets/educational_toy_project.jpg"
-            className="w-full max-h-[500px] object-cover rounded-2xl"
+            className="w-full max-h-[300px] sm:max-h-[400px] lg:max-h-[500px] object-cover rounded-2xl shadow-lg"
           />
         </div>
 
         <div className="grid grid-cols-1 w-full items-center h-auto lg:grid-cols-2 gap-5 lg:gap-32 py-5 lg:py-32">
           <div className="flex flex-col w-full h-auto space-y-5">
-            <div className="text-4xl">Ikhwezi Bakery</div>
+            <div className="text-2xl sm:text-3xl lg:text-4xl font-bold">
+              Ikhwezi Bakery
+            </div>
 
-            <div>
+            <div className="text-sm sm:text-base lg:text-lg leading-relaxed">
               Serving both corporate and local consumers, Ikhwezi Bakery has
               become a specialist in delicious pasties and treats. The bakery is
               owned by Phindile Zungu who is very passionate about her business.
@@ -155,15 +167,17 @@ function RouteComponent() {
 
           <img
             src="/assets/ikhwezi_bakery_project.jpg"
-            className="w-full max-h-[500px] object-cover rounded-2xl"
+            className="w-full max-h-[300px] sm:max-h-[400px] lg:max-h-[500px] object-cover rounded-2xl shadow-lg"
           />
         </div>
 
         <div className="grid grid-cols-1 w-full items-center h-auto lg:grid-cols-2 gap-5 lg:gap-32 py-5 lg:py-32">
           <div className="flex flex-col w-full h-auto space-y-5">
-            <div className="text-4xl">Clothing 4 Repurpose</div>
+            <div className="text-2xl sm:text-3xl lg:text-4xl font-bold">
+              Clothing 4 Repurpose
+            </div>
 
-            <div>
+            <div className="text-sm sm:text-base lg:text-lg leading-relaxed">
               Crafting has been one of our key projects in our drive for
               upcycling. When learnership opportunities came through our
               sponsors, Nkanyiso Ntanzi and Noxolo Madela were the first to grab
@@ -180,15 +194,15 @@ function RouteComponent() {
 
           <img
             src="/assets/clothing_for_repurpose_project.jpg"
-            className="w-full max-h-[500px] object-cover rounded-2xl"
+            className="w-full max-h-[300px] sm:max-h-[400px] lg:max-h-[500px] object-cover rounded-2xl shadow-lg"
           />
         </div>
       </div>
 
-      <div className="flex flex-col w-full h-auto space-y-5 bg-primary px-5 lg:px-32">
-        <div className="grid grid-cols-1 w-full items-center h-auto lg:grid-cols-2 gap-5 lg:gap-32 py-5 lg:py-32">
-          <div className="flex flex-col w-full h-auto space-y-5 text-white">
-            <div className="text-4xl">
+      <div className="flex flex-col w-full h-auto space-y-6 sm:space-y-8 bg-primary px-4 sm:px-6 lg:px-32">
+        <div className="grid grid-cols-1 w-full items-center h-auto lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-32 py-8 sm:py-16 lg:py-32">
+          <div className="flex flex-col w-full h-auto space-y-4 sm:space-y-5 text-white">
+            <div className="text-2xl sm:text-3xl lg:text-4xl leading-tight">
               Driving <span className="font-bold">Economic Opportunities</span>{' '}
               in <span className="font-bold">Waste</span>
               Diversion
@@ -197,21 +211,21 @@ function RouteComponent() {
 
           <img
             src="/assets/projects_innovation_in_waste.jpg"
-            className="w-full rounded-2xl"
+            className="w-full rounded-2xl shadow-lg"
           />
         </div>
       </div>
 
-      <div className="flex flex-col w-full h-auto items-center justify-center">
-        <div className="flex flex-col w-full h-auto space-y-8 px-5 lg:px-32 lg:w-1/2">
-          <div className="flex flex-col w-full h-auto space-y-4 items-center justify-center">
-            <div className="font-bold text-4xl text-center">
+      <div className="flex flex-col w-full h-auto items-center justify-center px-4 sm:px-6 lg:px-32">
+        <div className="flex flex-col w-full h-auto space-y-6 sm:space-y-8 lg:w-1/2">
+          <div className="flex flex-col w-full h-auto space-y-3 sm:space-y-4 items-center justify-center">
+            <div className="font-bold text-2xl sm:text-3xl lg:text-4xl text-center">
               Innovation in Waste
             </div>
-            <div className="w-32 h-2 bg-amber-200"></div>
+            <div className="w-24 sm:w-32 h-1.5 sm:h-2 bg-amber-200 rounded"></div>
           </div>
 
-          <div>
+          <div className="text-sm sm:text-base lg:text-lg leading-relaxed text-center lg:text-left">
             USE-IT is a Section 21 Non-Profit Organisation with PBO status. The
             focus of diverting waste from landfill through innovative solutions
             to create employers utilizing waste as a resource has secured USE-IT
@@ -226,19 +240,21 @@ function RouteComponent() {
         </div>
       </div>
 
-      <div className="flex flex-col w-full h-auto space-y-8 px-5 lg:px-32">
-        <div className="flex flex-col w-full h-auto space-y-4 items-center justify-center">
-          <div className="font-bold text-4xl text-center">
+      <div className="flex flex-col w-full h-auto space-y-6 sm:space-y-8 px-4 sm:px-6 lg:px-32">
+        <div className="flex flex-col w-full h-auto space-y-3 sm:space-y-4 items-center justify-center">
+          <div className="font-bold text-2xl sm:text-3xl lg:text-4xl text-center">
             Our Innovation Projects
           </div>
-          <div className="w-32 h-2 bg-amber-200"></div>
+          <div className="w-24 sm:w-32 h-1.5 sm:h-2 bg-amber-200 rounded"></div>
         </div>
 
-        <div className="grid grid-cols-1 w-full items-center h-auto lg:grid-cols-2 gap-5 lg:gap-32 py-5 lg:py-32">
-          <div className="flex flex-col w-full h-auto space-y-5">
-            <div className="text-4xl">Good Economy Project</div>
+        <div className="grid grid-cols-1 w-full items-center h-auto lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-32 py-4 sm:py-8 lg:py-16">
+          <div className="flex flex-col w-full h-auto space-y-4 sm:space-y-5">
+            <div className="text-2xl sm:text-3xl lg:text-4xl font-bold">
+              Good Economy Project
+            </div>
 
-            <div>
+            <div className="text-sm sm:text-base lg:text-lg leading-relaxed">
               Although USE-IT did not receive any direct funding through the
               project we utilized the opportunity to partner with Litter4Tokens
               in 2022 to stimulate the economy through waste collection. The
@@ -251,17 +267,21 @@ function RouteComponent() {
 
           <img
             src="/assets/goodeconomy_project.png"
-            className="w-full max-h-[500px] object-cover rounded-2xl"
+            className="w-full max-h-[300px] sm:max-h-[400px] lg:max-h-[500px] object-cover rounded-2xl shadow-lg"
           />
         </div>
 
-        <div className="grid grid-cols-1 w-full items-center h-auto lg:grid-cols-2 gap-5 lg:gap-32 py-5 lg:py-32">
-          <div className="flex flex-col w-full h-auto space-y-5">
-            <div className="text-4xl">Establishment of Buy-Back Centres</div>
+        <div className="grid grid-cols-1 w-full items-center h-auto lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-32 py-4 sm:py-8 lg:py-16">
+          <div className="flex flex-col w-full h-auto space-y-4 sm:space-y-5">
+            <div className="text-2xl sm:text-3xl lg:text-4xl font-bold">
+              Establishment of Buy-Back Centres
+            </div>
 
-            <div className="text-xl">Kwandengezi Waste Collectors Network</div>
+            <div className="text-lg sm:text-xl font-semibold">
+              Kwandengezi Waste Collectors Network
+            </div>
 
-            <div>
+            <div className="text-sm sm:text-base lg:text-lg leading-relaxed">
               We have experienced some challenges in securing a suitable work
               site in Kwandengezi, however engagements with the City is ongoing.
               We have however continued to service waste diversion in the area
@@ -273,19 +293,21 @@ function RouteComponent() {
 
           <img
             src="/assets/wastcollector_project.png"
-            className="w-full max-h-[500px] object-cover rounded-2xl"
+            className="w-full max-h-[300px] sm:max-h-[400px] lg:max-h-[500px] object-cover rounded-2xl shadow-lg"
           />
         </div>
 
-        <div className="grid grid-cols-1 w-full items-center h-auto lg:grid-cols-2 gap-5 lg:gap-32 py-5 lg:py-32">
-          <div className="flex flex-col w-full h-auto space-y-5">
-            <div className="text-4xl">Establishment of Buy-Back Centres</div>
+        <div className="grid grid-cols-1 w-full items-center h-auto lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-32 py-4 sm:py-8 lg:py-16">
+          <div className="flex flex-col w-full h-auto space-y-4 sm:space-y-5">
+            <div className="text-2xl sm:text-3xl lg:text-4xl font-bold">
+              Establishment of Buy-Back Centres
+            </div>
 
-            <div className="text-xl">
+            <div className="text-lg sm:text-xl font-semibold">
               Clermont / New Germany - Big Start Recycling
             </div>
 
-            <div>
+            <div className="text-sm sm:text-base lg:text-lg leading-relaxed">
               Starting with just a fence, a container and shaded roof covering
               we engaged with Big Start Training to establish a collection site
               and incorporated 135 waste collectors through the Good Economy
@@ -301,21 +323,21 @@ function RouteComponent() {
 
           <img
             src="/assets/bigstart_wastcollector_project.png"
-            className="w-full max-h-[500px] object-cover rounded-2xl"
+            className="w-full max-h-[300px] sm:max-h-[400px] lg:max-h-[500px] object-cover rounded-2xl shadow-lg"
           />
         </div>
       </div>
 
-      <div className="flex flex-col w-full h-auto items-center justify-center space-y-8 px-5 lg:px-32">
-        <div className="flex flex-col w-full h-auto space-y-8 lg:w-1/2">
-          <div className="flex flex-col w-full h-auto space-y-4 items-center justify-center">
-            <div className="font-bold text-4xl text-center">
+      <div className="flex flex-col w-full h-auto items-center justify-center space-y-6 sm:space-y-8 px-4 sm:px-6 lg:px-32">
+        <div className="flex flex-col w-full h-auto space-y-6 sm:space-y-8 lg:w-1/2">
+          <div className="flex flex-col w-full h-auto space-y-3 sm:space-y-4 items-center justify-center">
+            <div className="font-bold text-2xl sm:text-3xl lg:text-4xl text-center">
               Waste Diversion
             </div>
-            <div className="w-32 h-2 bg-amber-200"></div>
+            <div className="w-24 sm:w-32 h-1.5 sm:h-2 bg-amber-200 rounded"></div>
           </div>
 
-          <div>
+          <div className="text-sm sm:text-base lg:text-lg leading-relaxed text-center">
             Through collaboration with our partners, USE-IT has facilitated the
             diversion of waste from landfill at the Hammarsdale facility, this
             equates to R3,388,140.00 cost to landfill savings, which is a return
@@ -323,110 +345,144 @@ function RouteComponent() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-4 w-full h-auto gap-5">
-          <div className="flex flex-col w-full h-auto items-center justify-center bg-primary text-white p-5 rounded-2xl space-y-5">
-            <div className="text-4xl font-bold">Glass</div>
-
-            <div className="text-4xl">833.9 tons</div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 w-full h-auto gap-4 sm:gap-5">
+          <div className="flex flex-col w-full h-auto items-center justify-center bg-primary text-white p-4 sm:p-5 lg:p-6 rounded-2xl space-y-3 sm:space-y-4 lg:space-y-5">
+            <div className="text-2xl sm:text-3xl lg:text-4xl font-bold">
+              Glass
+            </div>
+            <div className="text-xl sm:text-2xl lg:text-3xl xl:text-4xl">
+              833.9 tons
+            </div>
           </div>
 
-          <div className="flex flex-col w-full h-auto items-center justify-center bg-primary text-white p-5 rounded-2xl space-y-5">
-            <div className="text-4xl font-bold">Waste</div>
-
-            <div className="text-4xl">844.9 tons</div>
+          <div className="flex flex-col w-full h-auto items-center justify-center bg-primary text-white p-4 sm:p-5 lg:p-6 rounded-2xl space-y-3 sm:space-y-4 lg:space-y-5">
+            <div className="text-2xl sm:text-3xl lg:text-4xl font-bold">
+              Waste
+            </div>
+            <div className="text-xl sm:text-2xl lg:text-3xl xl:text-4xl">
+              844.9 tons
+            </div>
           </div>
 
-          <div className="flex flex-col w-full h-auto items-center justify-center bg-primary text-white p-5 rounded-2xl space-y-5">
-            <div className="text-4xl font-bold">Upcycling</div>
-
-            <div className="text-4xl">4 tons</div>
+          <div className="flex flex-col w-full h-auto items-center justify-center bg-primary text-white p-4 sm:p-5 lg:p-6 rounded-2xl space-y-3 sm:space-y-4 lg:space-y-5">
+            <div className="text-2xl sm:text-3xl lg:text-4xl font-bold">
+              Upcycling
+            </div>
+            <div className="text-xl sm:text-2xl lg:text-3xl xl:text-4xl">
+              4 tons
+            </div>
           </div>
 
-          <div className="flex flex-col w-full h-auto items-center justify-center bg-primary text-white p-5 rounded-2xl space-y-5">
-            <div className="text-4xl font-bold">Food Waste</div>
-
-            <div className="text-4xl">77.9 tons</div>
-          </div>
-        </div>
-
-        <div className="text-2xl">Total of 1,760.70 tons of waste diverted</div>
-
-        <div className="grid grid-cols-1 lg:grid-cols-4 w-full h-auto gap-5">
-          <div className="flex flex-col w-full h-auto items-center justify-center bg-primary text-white p-5 rounded-2xl space-y-5">
-            <div className="text-4xl font-bold">R1.5m</div>
-          </div>
-
-          <div className="flex flex-col w-full h-auto items-center justify-center bg-primary text-white p-5 rounded-2xl space-y-5">
-            <div className="text-4xl font-bold">R1.5m</div>
-          </div>
-
-          <div className="flex flex-col w-full h-auto items-center justify-center bg-primary text-white p-5 rounded-2xl space-y-5">
-            <div className="text-4xl font-bold">R7k</div>
-          </div>
-
-          <div className="flex flex-col w-full h-auto items-center justify-center bg-primary text-white p-5 rounded-2xl space-y-5">
-            <div className="text-4xl font-bold">R1.40k</div>
+          <div className="flex flex-col w-full h-auto items-center justify-center bg-primary text-white p-4 sm:p-5 lg:p-6 rounded-2xl space-y-3 sm:space-y-4 lg:space-y-5">
+            <div className="text-2xl sm:text-3xl lg:text-4xl font-bold">
+              Food Waste
+            </div>
+            <div className="text-xl sm:text-2xl lg:text-3xl xl:text-4xl">
+              77.9 tons
+            </div>
           </div>
         </div>
 
-        <div className="text-2xl">
+        <div className="text-lg sm:text-xl lg:text-2xl font-semibold text-center">
+          Total of 1,760.70 tons of waste diverted
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 w-full h-auto gap-4 sm:gap-5">
+          <div className="flex flex-col w-full h-auto items-center justify-center bg-primary text-white p-4 sm:p-5 lg:p-6 rounded-2xl space-y-3 sm:space-y-4 lg:space-y-5">
+            <div className="text-xl sm:text-2xl lg:text-3xl xl:text-4xl font-bold">
+              R1.5m
+            </div>
+          </div>
+
+          <div className="flex flex-col w-full h-auto items-center justify-center bg-primary text-white p-4 sm:p-5 lg:p-6 rounded-2xl space-y-3 sm:space-y-4 lg:space-y-5">
+            <div className="text-xl sm:text-2xl lg:text-3xl xl:text-4xl font-bold">
+              R1.5m
+            </div>
+          </div>
+
+          <div className="flex flex-col w-full h-auto items-center justify-center bg-primary text-white p-4 sm:p-5 lg:p-6 rounded-2xl space-y-3 sm:space-y-4 lg:space-y-5">
+            <div className="text-xl sm:text-2xl lg:text-3xl xl:text-4xl font-bold">
+              R7k
+            </div>
+          </div>
+
+          <div className="flex flex-col w-full h-auto items-center justify-center bg-primary text-white p-4 sm:p-5 lg:p-6 rounded-2xl space-y-3 sm:space-y-4 lg:space-y-5">
+            <div className="text-xl sm:text-2xl lg:text-3xl xl:text-4xl font-bold">
+              R1.40k
+            </div>
+          </div>
+        </div>
+
+        <div className="text-lg sm:text-xl lg:text-2xl font-semibold text-center">
           Total of R1,800.00 per ton = R3,169 260.00 cost to landfill (savings)
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-4 w-full h-auto gap-5">
-          <div className="flex flex-col w-full h-auto items-center justify-center bg-primary text-white p-5 rounded-2xl space-y-5">
-            <div className="text-4xl font-bold">R333k</div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 w-full h-auto gap-4 sm:gap-5">
+          <div className="flex flex-col w-full h-auto items-center justify-center bg-primary text-white p-4 sm:p-5 lg:p-6 rounded-2xl space-y-3 sm:space-y-4 lg:space-y-5">
+            <div className="text-xl sm:text-2xl lg:text-3xl xl:text-4xl font-bold">
+              R333k
+            </div>
           </div>
 
-          <div className="flex flex-col w-full h-auto items-center justify-center bg-primary text-white p-5 rounded-2xl space-y-5">
-            <div className="text-4xl font-bold">R1.2m</div>
+          <div className="flex flex-col w-full h-auto items-center justify-center bg-primary text-white p-4 sm:p-5 lg:p-6 rounded-2xl space-y-3 sm:space-y-4 lg:space-y-5">
+            <div className="text-xl sm:text-2xl lg:text-3xl xl:text-4xl font-bold">
+              R1.2m
+            </div>
           </div>
 
-          <div className="flex flex-col w-full h-auto items-center justify-center bg-primary text-white p-5 rounded-2xl space-y-5">
-            <div className="text-4xl font-bold">R4k</div>
+          <div className="flex flex-col w-full h-auto items-center justify-center bg-primary text-white p-4 sm:p-5 lg:p-6 rounded-2xl space-y-3 sm:space-y-4 lg:space-y-5">
+            <div className="text-xl sm:text-2xl lg:text-3xl xl:text-4xl font-bold">
+              R4k
+            </div>
           </div>
 
-          <div className="flex flex-col w-full h-auto items-center justify-center bg-primary text-white p-5 rounded-2xl space-y-5">
-            <div className="text-4xl font-bold">R0</div>
+          <div className="flex flex-col w-full h-auto items-center justify-center bg-primary text-white p-4 sm:p-5 lg:p-6 rounded-2xl space-y-3 sm:space-y-4 lg:space-y-5">
+            <div className="text-xl sm:text-2xl lg:text-3xl xl:text-4xl font-bold">
+              R0
+            </div>
           </div>
         </div>
 
-        <div className="text-2xl">
+        <div className="text-lg sm:text-xl lg:text-2xl font-semibold text-center">
           Total of R1,533,004.00 earned by Waste Collectors
         </div>
 
-        <div className="text-2xl">Return on investment: R4,702,264.00</div>
+        <div className="text-lg sm:text-xl lg:text-2xl font-semibold text-center">
+          Return on investment: R4,702,264.00
+        </div>
 
-        <div className="flex flex-col w-full h-auto space-y-8 px-5 lg:px-32 items-center justify-center">
+        <div className="flex flex-col w-full h-auto space-y-6 sm:space-y-8 items-center justify-center">
           <img
             src="/assets/waste_diversion_graph.png"
-            className="w-full lg:w-[50%]"
+            className="w-full sm:w-4/5 lg:w-3/5 xl:w-1/2 max-w-2xl"
           />
         </div>
       </div>
 
-      <div className="flex flex-col w-full h-auto space-y-5 bg-primary px-5 lg:px-32">
-        <div className="grid grid-cols-1 w-full items-center h-auto lg:grid-cols-2 gap-5 lg:gap-32 py-5 lg:py-32">
-          <div className="flex flex-col w-full h-auto space-y-5 text-white">
-            <div className="text-4xl">
+      <div className="flex flex-col w-full h-auto space-y-6 sm:space-y-8 bg-primary px-4 sm:px-6 lg:px-32">
+        <div className="grid grid-cols-1 w-full items-center h-auto lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-32 py-8 sm:py-16 lg:py-32">
+          <div className="flex flex-col w-full h-auto space-y-4 sm:space-y-5 text-white">
+            <div className="text-2xl sm:text-3xl lg:text-4xl leading-tight">
               Reshaping Outer West Recycling & Key Bricks Pty Ltd
             </div>
           </div>
 
           <img
             src="/assets/projects_smme.jpeg"
-            className="w-full rounded-2xl"
+            className="w-full rounded-2xl shadow-lg"
           />
         </div>
       </div>
 
-      <div className="flex flex-col w-full h-auto space-y-8 px-5 lg:px-32">
-        <div className="flex flex-col w-full h-auto space-y-4 items-center justify-center">
-          <div className="font-bold text-4xl text-center">SMME Development</div>
-          <div className="w-32 h-2 bg-amber-200"></div>
+      <div className="flex flex-col w-full h-auto space-y-6 sm:space-y-8 px-4 sm:px-6 lg:px-32">
+        <div className="flex flex-col w-full h-auto space-y-3 sm:space-y-4 items-center justify-center">
+          <div className="font-bold text-2xl sm:text-3xl lg:text-4xl text-center">
+            SMME Development
+          </div>
+          <div className="w-24 sm:w-32 h-1.5 sm:h-2 bg-amber-200 rounded"></div>
         </div>
 
-        <div>
+        <div className="text-sm sm:text-base lg:text-lg leading-relaxed">
           A partnership has been established to support the growth of Outer West
           Recycling, a local SMME that collects waste and consolidates for
           volumetric sale into recycling. Musa Gwala who runs the business has
@@ -436,12 +492,14 @@ function RouteComponent() {
         </div>
       </div>
 
-      <div className="flex flex-col w-full h-auto space-y-8 px-5 lg:px-32">
-        <div className="grid grid-cols-1 w-full items-center h-auto lg:grid-cols-2 gap-5 lg:gap-32 py-5 lg:py-32">
-          <div className="flex flex-col w-full h-auto space-y-5">
-            <div className="text-4xl">KEY Bricks (Pty) Ltd:</div>
+      <div className="flex flex-col w-full h-auto space-y-6 sm:space-y-8 px-4 sm:px-6 lg:px-32">
+        <div className="grid grid-cols-1 w-full items-center h-auto lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-32 py-4 sm:py-8 lg:py-16">
+          <div className="flex flex-col w-full h-auto space-y-4 sm:space-y-5">
+            <div className="text-2xl sm:text-3xl lg:text-4xl font-bold">
+              KEY Bricks (Pty) Ltd:
+            </div>
 
-            <div>
+            <div className="text-sm sm:text-base lg:text-lg leading-relaxed">
               USE-IT has entered into a collaboration with the CSIR and KEY
               Bricks to establish a demonstration site at the Hammarsdale Waste
               Beneficiation Centre. The development of a green interlocking
@@ -457,15 +515,17 @@ function RouteComponent() {
 
           <img
             src="/assets/projects_keybricks_smme.png"
-            className="w-full max-h-[500px] object-cover rounded-2xl"
+            className="w-full max-h-[300px] sm:max-h-[400px] lg:max-h-[500px] object-cover rounded-2xl shadow-lg"
           />
         </div>
 
-        <div className="grid grid-cols-1 w-full items-center h-auto lg:grid-cols-2 gap-5 lg:gap-32 py-5 lg:py-32">
-          <div className="flex flex-col w-full h-auto space-y-5">
-            <div className="text-4xl">Outer West & Recycling:</div>
+        <div className="grid grid-cols-1 w-full items-center h-auto lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-32 py-4 sm:py-8 lg:py-16">
+          <div className="flex flex-col w-full h-auto space-y-4 sm:space-y-5">
+            <div className="text-2xl sm:text-3xl lg:text-4xl font-bold">
+              Outer West & Recycling:
+            </div>
 
-            <div>
+            <div className="text-sm sm:text-base lg:text-lg leading-relaxed">
               A partnership has been established to support the growth of Outer
               West Recycling, a local SMME that collects waste and consolidates
               for volumetric sale into recycling. Musa Gwala who runs the
@@ -477,50 +537,67 @@ function RouteComponent() {
 
           <img
             src="/assets/projects_outerwest_smme.jpeg"
-            className="w-full max-h-[500px] object-cover rounded-2xl"
+            className="w-full max-h-[300px] sm:max-h-[400px] lg:max-h-[500px] object-cover rounded-2xl shadow-lg"
           />
         </div>
       </div>
 
-      <div className="flex flex-col w-full h-auto space-y-8 px-5 lg:px-32">
-        <div className="flex flex-col w-full h-auto space-y-4 items-center justify-center">
-          <div className="font-bold text-4xl text-center">Our Partners</div>
-          <div className="w-32 h-2 bg-amber-200"></div>
+      <div className="flex flex-col w-full h-auto space-y-6 sm:space-y-8 px-4 sm:px-6 lg:px-32">
+        <div className="flex flex-col w-full h-auto space-y-3 sm:space-y-4 items-center justify-center">
+          <div className="font-bold text-2xl sm:text-3xl lg:text-4xl text-center">
+            Our Partners
+          </div>
+          <div className="w-24 sm:w-32 h-1.5 sm:h-2 bg-amber-200 rounded"></div>
         </div>
 
-        <div className="grid grid-cols-1 w-full items-center h-auto lg:grid-cols-3 2xl:grid-cols-5 gap-5 py-5 lg:py-32">
-          <div className="flex flex-col w-full items-center justify-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 w-full items-center h-auto gap-4 sm:gap-5 lg:gap-6 py-4 sm:py-8 lg:py-16">
+          <div className="flex flex-col w-full items-center justify-center p-4">
             <img
               src="/assets/outer_west_recycling_partner.png"
-              className="w-auto"
+              className="w-auto max-h-20 sm:max-h-24 lg:max-h-28 object-contain"
             />
           </div>
 
-          <div className="flex flex-col w-full items-center justify-center">
-            <img src="/assets/bugology_partner.png" className="w-auto" />
+          <div className="flex flex-col w-full items-center justify-center p-4">
+            <img
+              src="/assets/bugology_partner.png"
+              className="w-auto max-h-20 sm:max-h-24 lg:max-h-28 object-contain"
+            />
           </div>
 
-          <div className="flex flex-col w-full items-center justify-center">
-            <img src="/assets/keybricks_partner.png" className="w-auto" />
+          <div className="flex flex-col w-full items-center justify-center p-4">
+            <img
+              src="/assets/keybricks_partner.png"
+              className="w-auto max-h-20 sm:max-h-24 lg:max-h-28 object-contain"
+            />
           </div>
 
-          <div className="flex flex-col w-full items-center justify-center">
-            <img src="/assets/niya_consulting_partner.jpg" className="w-auto" />
+          <div className="flex flex-col w-full items-center justify-center p-4">
+            <img
+              src="/assets/niya_consulting_partner.jpg"
+              className="w-auto max-h-20 sm:max-h-24 lg:max-h-28 object-contain"
+            />
           </div>
 
-          <div className="flex flex-col w-full items-center justify-center">
+          <div className="flex flex-col w-full items-center justify-center p-4">
             <img
               src="/assets/ethekwini_municipality_partner.jpg"
-              className="w-auto"
+              className="w-auto max-h-20 sm:max-h-24 lg:max-h-28 object-contain"
             />
           </div>
 
-          <div className="flex flex-col w-full items-center justify-center">
-            <img src="/assets/bowisolve_partner.jpg" className="w-auto" />
+          <div className="flex flex-col w-full items-center justify-center p-4">
+            <img
+              src="/assets/bowisolve_partner.jpg"
+              className="w-auto max-h-20 sm:max-h-24 lg:max-h-28 object-contain"
+            />
           </div>
 
-          <div className="flex flex-col w-full items-center justify-center">
-            <img src="/assets/csir_partner.png" className="w-auto" />
+          <div className="flex flex-col w-full items-center justify-center p-4">
+            <img
+              src="/assets/csir_partner.png"
+              className="w-auto max-h-20 sm:max-h-24 lg:max-h-28 object-contain"
+            />
           </div>
         </div>
       </div>
